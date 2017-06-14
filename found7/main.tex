@@ -3,12 +3,12 @@
 % filled in. Otherwise please make sure you insert your
 % data according to the instructions in PoSauthmanual.pdf
 \documentclass{PoS}
-
+\usepackage{wrapfig}
 \title{Studies of the microwave emission of extensive air showers with EASIER and MIDAS at the Pierre Auger Observatory}
 
 \ShortTitle{MBR emission at Auger}
 
-\author{\speaker{Romain Gaior}$^a$ for the Pierre Auger Collaboration$^b$\\
+\author{\speaker{Romain Ga\"{i}or}$^a$ for the Pierre Auger Collaboration$^b$\\
 \llap{$^a$}Your Institution Affiliation, City, Country\\
 \llap{$^b$}Observatorio Pierre Auger, Av.\ San Mart\'in Norte 304, 5613 Malarg\"ue, Argentina\\
 E-mail: \href{mailto:auger_spokespersons@fnal.gov}{\rm auger\_spokespersons@fnal.gov}\\
@@ -26,37 +26,56 @@ Full author list: \href{http://www.auger.org/archive/authors_icrc_2017.html}{\rm
 
 \section{Introduction}
 The measurement of the composition of the Ultra High Energy Cosmic Rays (UHECR) is crucial to constrain their origin. The two main techniques to characterize the Extensive Air Shower (EAS) induced by the UHECR, is either a particle detector array at ground or a fluorescence telescope. Unfortunately, in their actual form, the particle detector at ground are limited in their sensitivity on the mass composition measurement and the fluorescence technique is sensitive to it only with a limited duty cycle of 15\% thus limiting the statistics at the highest energies. The development of 
-an additional particle detector complementing the existing one is the focus of the upgrade effort undertaken at the Pierre Auger Observatory\cite{augerupgrade}.\\However, new detection channels have also been considered. The observation of the EAS through the radio waves emitted along its development in the atmosphere is one of them. Radio technique have been investigated since the 1960's and is now an experienced technique in the VHF band, a region of frequency where a strong signal is emitted in the forward direction within a Cherenkov cone of around 1 degree opening in air. This technique is now implemented in several observatories including the Pierre Auger Observatory. However the lateral extension of the radio signal doesn't allow one to instrument large area required to compensate for the very low flux at the highest energies.\\ A promising technique was proposed in 2008~\cite{gorham} after the observation of a signal in the microwave frequencies upon the passage of a particle shower in an anechoic chamber. This signal interpreted as originated from the acceleration of ionisation electrons in the molecular field, the molecular Bremsstrahlung radiation (MBR), has triggered a lot of interest. The MBR is emitted isotropically and it would allow one to measure the longitudinal profile of the EAS, as with the fluorescence but with a 100\% duty cycle. Since the first beam test results, many efforts have been undertaken, new beam test have been carried out~\cite{amy, maybe} but were not able to reproduce the initial results. Estimation of the expected signal have been improved and yielded less optimistic results. Finally, in situ experiments have tried to observe the MBR emission using existing CR observatory to probe this signal\cite{crome, icrc2013}. If clear signal were observed, their origin can be attributed to a coherent emission. In the present contribution we present the development and the results of two radio experiments, EASIER and MIDAS, installed within the Pierre Auger Observatory and able to probe the MBR emission from the UHECR.
-
+an additional particle detector complementing the existing one is the focus of the upgrade effort undertaken at the Pierre Auger Observatory\cite{augerupgrade}.\\However, new detection channels have also been considered. The observation of the EAS through the radio waves emitted along its development in the atmosphere is one of them. Radio technique have been investigated since the 1960's and is now an experienced technique in the VHF band, a region of frequency where a strong signal is emitted in the forward direction within a Cherenkov cone of around 1 degree opening in air. This technique is now implemented in several observatories including the Pierre Auger Observatory\cite{VHF}. However the lateral extension of the radio signal doesn't allow one to instrument large area required to compensate for the very low flux at the highest energies.\\ A promising technique was proposed in 2008~\cite{gorham} after the observation of a signal in the microwave frequencies upon the passage of a particle shower in an anechoic chamber. This signal interpreted as originated from the acceleration of ionisation electrons in the molecular field, the molecular Bremsstrahlung radiation (MBR), has triggered a lot of interest. The MBR is emitted isotropically and it would allow one to measure the longitudinal profile of the EAS, as with the fluorescence but with a 100\% duty cycle. Since the first beam test results, many efforts have been undertaken, new beam test have been carried out~\cite{amy, maybe} but were not able to reproduce the initial results. Estimation of the expected signal have been improved and yielded less optimistic results\cite{mbr2016}. Finally, in situ experiments have tried to observe the MBR emission using existing CR observatory to probe this signal\cite{crome, icrc2013}. If clear signal were observed, their origin can be attributed to a coherent emission. In the present contribution we present the development and the results of two radio experiments, EASIER and MIDAS, installed within the Pierre Auger Observatory and able to probe the MBR emission from the UHECR.
+\newpage
 \section{The Pierre Auger Observatory}
-The Pierre Auger Observatory is an hybrid detector comprising an array of 1600 particle detectors at ground, the surface detector (SD), and a fluorescence detector (FD) measuring the fluorescence light from 5 sites surrounding the SD. Each SD station is a water cherenkov detector  equipped with a local DAQ and communication. 
-The two radio detectors we present here use the same technique but are implemented in a different way. EASIER is embedded in a local SD station and intends to measure the radio waves from the ground, whereas MIDAS is inspired of the FD, and tries to measure the radiation of EAS from the side.
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.4\textwidth]{layoutGHz.png}
-
-\caption{The EASIER arrays and MIDAS field of view overlaid with the surface detector of the Pierre Auger Observatory.}
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+	\includegraphics[width=0.3\textwidth]{layoutGHz.png}
+	  \end{center}
+  \caption{The EASIER arrays and MIDAS field of view overlaid with the surface detector of the Pierre Auger Observatory.}
 \label{fig:ghzlayout}
-\end{figure}
+\end{wrapfigure}
+The Pierre Auger Observatory is an hybrid detector. It  comprises an array of 1660 particle detectors at ground, the surface detector (SD), and a fluorescence detector (FD) measuring the fluorescence light from 5 sites surrounding the SD.
+
+The two radio detectors we present here aim at the measurement of the same emission but are implemented in a different way. EASIER is embedded in a local SD station and intends to measure the radio waves from the ground, whereas MIDAS is inspired of the FD, and tries to measure the radiation of EAS from the side. The footprint of EASIER is depicted in the Figure~\ref{fig:ghzlayout} and together with the Auger SD array and the limits of MIDAS's the field of view of MIDAS. Both experiments take advantage of the infrastructure but also use the reconstructed SD data from Auger to search for coincident event. 
+
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=0.4\textwidth]{layoutGHz.png}
+%
+%\caption{The EASIER arrays and MIDAS field of view overlaid with the surface detector of the Pierre Auger Observatory.}
+%\label{fig:ghzlayout}
+%\end{figure}
 
 \section{EASIER}
 \subsection{Detectors}
 \paragraph{Concept}
-EASIER (Extensive Air Shower Identification with Electron Radiometer) is designed to observe the radio emission from EAS with an antenna looking up, and located at ground. It is operated in slave mode with an Auger SD local station and thus takes advantage of the trigger of the particle detector. The detector is composed of an antenna followed by an amplification stage and a filtering stage. The radio frequency (RF) signal is then transformed into its power envelope with a logarithmic amplifier. The output of the log amp is in turn scaled to fit into Auger SD front end where the EASIER signal replaces a low gain channel of one of the three PMTs. 
-The scheme of EASIER detector is shown in the figure~\ref{fig:easierconcept}. This concept has been implemented is three different versions, two in the C-band EASIER61 and GIGADuck-C and one the L band, GIGADuck-L.
-\begin{figure}[h]
-\centering
+\begin{wrapfigure}{l}{0.5\textwidth}
+	  \begin{center}
 \includegraphics[width=0.4\textwidth]{easierscheme.pdf}
-\caption{Scheme of EASIER concept. The sensor  placed on the tank is one the three antenna shown in the left side. The signal chain common for all the setup is represented on the bottom part.}
-\label{fig:easierscheme}
-\end{figure}
+	  \end{center}
+  \label{fig:easierscheme}
+  \caption{Scheme of EASIER concept. The sensor  placed on the tank is one the three antenna shown in the left side. The signal chain common for all the setup is represented on the bottom part.}
+\end{wrapfigure}
+
+EASIER (Extensive Air Shower Identification with Electron Radiometer) is designed to observe the radio emission from EAS with an antenna looking up in the sly, and located at ground. It is operated in slave mode with an Auger SD local station and thus takes advantage of the trigger of the particle detector. The detector is composed of an antenna followed by an amplification and a filtering stage. The radio frequency (RF) signal is then transformed into its power envelope with a logarithmic amplifier. The output of the logarithmic amplifier is in turn scaled to fit into Auger SD front end input where the EASIER signal replaces a low gain channel of one of the three PMTs. 
+The scheme of EASIER detector is shown in the figure~\ref{fig:easierconcept}. This concept has been implemented is three different versions, two in the C-band EASIER61 and GIGADuck-C and one the L band, GIGADuck-L (see Figure~\ref{fig:easierconcept} for the picture of the three types of antenna).
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.4\textwidth]{easierscheme.pdf}
+%\caption{Scheme of EASIER concept. The sensor  placed on the tank is one the three antenna shown in the left side. The signal chain common for all the setup is represented on the bottom part.}
+%\label{fig:easierscheme}
+%\end{figure}
 
 \paragraph{EASIER61}
-The EASIER61 is the first array. A test bed of 7 antenna was installed in april 2011 and the completion to 61 detectors took place a year later. Each detector is composed of a C-band cylindrical horn antenna with a half power beam width (HPBW) of 90$^\circ$. The antenna point toward the zenith. EASIER61 has measured clear events in coincidence with the particle detector. However, because of the geometry configuration of these events, a short distance to the shower axis, or  inclined events, the origin of this signal can be attributed to coherent processes.
+The EASIER61 is the first array installed in the Pampa. A test bed of 7 antennas was installed in April 2011 and the completion to 61 detectors took place a year later. Each detector is composed of a C-band cylindrical horn antenna with a half power beam width (HPBW) of 90$^\circ$. The antenna points toward the zenith. EASIER61 has measured clear events in coincidence with the particle detector (see section~\ref{sec:easierevent}). However, because of the short distance to the shower axis, or  inclined events, the origin of this signal can be attributed to coherent processes and cannot be an evidence for the MBR.
 \paragraph{GIGADuck-C}
-GIGADuck is an improvement of the EASIER detector. It is an array of seven detectors instrumented with a larger gain antenna, to increase the sensitivity to MBR, and an optimized geometry to enhance the coincidence probability between radio detectors. This design was implemented in the C-band and the L-band. In the C-band, the antenna is a pyramidal horn with 15dB gain and a HPBW of 60$^\circ$, followed by an LNB (Norsat 8115F). Each antenna points in a different direction, the central one looks at the zenith while the other six are tilted by 20$^\circ$ and have their azimuth to be oriented in the direction of the central detector. A coincidence between two detectors would favour the MBR origin of a signal against a coherent process.
+GIGADuck is an improvement of the EASIER61 detector. It is an array of seven detectors instrumented with a larger gain antenna to increase the sensitivity, and an optimized geometry to enhance the coincidence probability between radio detectors.Such a coincidence  would favour the MBR origin of a signal against a coherent process. In this modified geometry, each antenna points in a different direction, the central one looks at the zenith while the other six are tilted by 20$^\circ$ and have their azimuth oriented in the direction of the central detector. This design was implemented in the C-band and the L-band. In the C-band, the antenna is a pyramidal horn with 15dB gain and a HPBW of 60$^\circ$, followed by an LNB (Norsat 8115F).
 \paragraph{GIGADuck-L}
-The GIGADuck design has been implemented in the L-band as well. The antenna is now a helix antenna with a maximum gain at 1.4GHz and a HPBW of 60$^\circ$. Contrary to the two other setup, we developed the amplification board. A low noise amplifier board was designed with a Electric Surge protection at the input, a band pass filter, and two amplifier in chain. 
+The GIGADuck design has been implemented in the L-band as well. The antenna is a helix antenna with a maximum gain at 1.4GHz and a HPBW of 60$^\circ$. Contrary to the two other setups, we developed the amplification board with two commercial LNA chip (Broadcom Limited MGA633P8 and MGA13116) in series. We integrated a band pass filter and an Electric Surge protection at the input before any amplification. The gain and noise temperature of this board were characterized before the installation. The gain in the bandwidth is around 50dB and the noise temperature from 60 to 80K among the 9 boards tested.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.4\textwidth]{effectiveareas.png}
@@ -70,31 +89,34 @@ The sensitivity of a radio power detector like EASIER can be estimated with the 
 \begin{equation}
 	\rm	F_{min} = \frac{k_{B}T_{sys}}{A_{eff}\sqrt{\Delta \nu \Delta t}}
 \end{equation}
-where the $\rm T_{sys}$ is the system temperature, $\rm A_{eff}$ the effective area, $\rm Delta \nu$ and $\rm Delta t$ the bandwidth and the time over which the signal can be integrated.\\
-The measured bandwidths and the simulated effective area of the three C-band detectors are shown in the figure~\ref{fig:calib}. One can see that the lobes of the GIGADuck detectors are more focused. \\ The system temperature is more difficult to measure. For the three setups it was actually measured with a different method. For EASIER61 detectors it was estimated with a simple dedicated measurement, we simply measured detector output when pointed to the sky and when oriented towards the ground. From the power difference between these two measurements, the intrinsic system temperature can be measured (the so called Y-factor method). For the GIGADuck-C band, we have developped a method using the sun as a calibration source. A radio baseline from the monitoring data is shown in the figure~\ref{fig:monit} top together with the ambiant temperature in blue. One can clearly see on the bottom plot  of the same figure, once the temperature dependence was removed, the bump whose origin is the solar flux. This bump can be fitted with a second order polynomials and a gaussian function. For three of the seven antennas installed we have selected a set of days when the sun is in their field of view and measured the sun contribution. The expected contribution of the sun  is computed combining the measured solar flux from the Nobeyama Observatory~\cite{bib:nobeyama} and the simulated effective area of the antenna. Hence we have:
+where the $\rm T_{sys}$ is the system temperature, $\rm A_{eff}$ the effective area, $\rm \Delta \nu$ and $\rm \Delta t$ the bandwidth and the time over which the signal can be integrated.\\
+Figure~\ref{fig:calib} (left) shows the measured bandwidths for the 2 C-band detectors. The GIGADuck-C bandwidth (Norsat) is larger which also increase the sensitivity.  The comparison of the simulated effective area of the three C-band detectors in the figure~\ref{fig:calib} (right) shows the direct increase in sensitivity from this parameters. \\The system temperature is more difficult to measure. For the three setups it was indeed measured with different methods. For EASIER61 detectors it was estimated with a dedicated measurement, we simply measured the power output when the antenna pointed to the sky and when oriented towards the ground. From the power difference between these two measurements, an intrinsic system temperature of 120 K was measured (the so called Y-factor method). \\ For the GIGADuck-C band, we have developped a method using the sun as a calibration source. The GIGADuck-C antenna are sufficiently  sensitive to measure the solar flux, and an example of the sun contribution during a day is shown in the Figure~\ref{fig:solarflux} (top). After applying a selection on the daily monitoring baselines based on quality of the radio data and quality of the fit of the sun bump, we combine the measurements of each days and compute the system noise temperature. Indeed, the sun bump height measures the ratio of power with and without sun which reads:
 \begin{equation}
 	\rm	\frac{P_{on}}{P_{off}} = \frac{k_{B}T_{sys} + F_{sun}A_{eff}}{k_{B}T_{sys}}
 \end{equation}
-The baseline of the helix detectors exhibit also a clear bump attributed to the sun. However other contributions can be noticed along the day (see figure~\ref{fig: baseline}). These modulations are likely to be signal from positioning satellite which all emit in the L-band and prevent us to isolate the sun signal. We thus estimate the system temperature directly from the calibration made prior the installation.
+where $\rm F_{sun} $ is the expected contribution from the sun   based on observations at the Nobeyama Radio Observatory (NRO)~\cite{bib:nobeyama} at 3.75 GHz and $A_{eff}$ is the simulated effective area of the antenna. One can also compare the timing of the sun in the simulation and the data, some difference were found indicating a shift in the antenna orientation. We combined these information in a global fit of the system noise temperature and the antenna orientation. The noise temperature value and time of maximum of one antenna on the set of selected days is shown in the Figure~\ref{fig:solarflux} (bottom) for the optimal antenna orientation. We found system noise temperature ranging from 50 to 70K antenna pointing shifts up to 12 degree. 
+\\The baseline of the GIGADuck-L detectors exhibit also a clear bump attributed to the sun. However other contributions can be noticed along the day. These modulations are likely to be signal from positioning satellite which all emit in the L-band and prevent us to isolate the sun signal. We thus deduced the system temperature directly from the baseline level measured in monitoring data and the calibration information recorded prior the installation. Noise temperatures ranging from 95 to 145 K were found for the seven installed detector.
 \begin{center}
   \begin{tabular}{ | c | c | c | c | c |}
     \hline
-	& antenna & geometry & fov / Aeff max & system temperature \\ \hline
-	EASIER61 & C-band cylindrical horn & (0,0) & 90 / $10^-3$ & 100 K\\ \hline
-	GIGADuck-C & C-band pyramidal horn & 6 tilted 1 vertical  & 60 / $10^-2$ & 50 K\\ \hline
-	GIGADuck-L & L-band helix & 6 tilted 1 vertical  & 60 / $10^-1$ & 100 K\\ \hline
+	& antenna & geometry & FOV / $\rm A_{eff}$ max & system temperature \\ \hline
+	EASIER61 & C-band cylindrical horn & (0,0) & 90 / $5\times 10^{-3}$ & 120 K\\ \hline
+	GIGADuck-C & C-band pyramidal horn & 6 tilted 1 vertical  & 60 / $2 \times 10^{-2}$ & 70 K\\ \hline
+	GIGADuck-L & L-band helix & 6 tilted 1 vertical  & 60 / $2 \times 10^{-1}$ & 145 K\\ \hline
   \end{tabular}
 \end{center}
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.4\textwidth]{newfitexamp.png}
 \includegraphics[width=0.4\textwidth]{jorgehour.png}
-
-\caption{Scheme of EASIER concept. The sensor  placed on the tank is one the three antenna shown in the left side. The signal chain common for all the setup is represented on the bottom part.}
+\caption{}
 \label{fig:baselines}
 \end{figure}
-\subsection{Results}
-The EASIER arrays have recorded data together with the Auger normal stream from 6 years for the EASIER61 array to 6 month for GIGADuck-L array, the last installed. We show in this section a search for radio event in coincidence with EAS recorded by the Auger SD.\\We build a data set from the Auger data, and we proceed to a first selection on the cosmic ray event quality i.e. regular cuts on the reconstruction and the removal of events tagged as lightning. A second set of cuts is applied on the radio trace caracteristics, we remove traces with large RMS or with more than 10 bins saturated (out of 768). 
+\subsection{Event search}
+\label{sec:easierevent}
+The operation of the various EASIER arrays have been overlapping. The first installed array is made of 7 detectors of EASIER61 in April 2011 and   have been operating since 2011. Indeed, the fir acquiring data together with the Auger normal stream since more than 6 years for the EASIER61 array to 6 month for GIGADuck-L array, the last installed. 
+
+We show in this section a search for radio event in coincidence with EAS recorded by the Auger SD.\\We build a data set from the Auger data, and we proceed to a first selection on the cosmic ray event quality i.e. regular cuts on the reconstruction and the removal of events tagged as lightning. A second set of cuts is applied on the radio trace caracteristics, we remove traces with large RMS or with more than 10 bins saturated (out of 768). 
 
 \paragraph{Event search}
 The data set is split in a $background set$ composed of the station with a distance larger than 3km from the shower axis and a $signal set$ which select among the EAS event of energy larger than 5 EeV and zenith angle smaller than 60$^{\circ}$ the station closer than 2km from the shower axis. The distribution of the radio maximum as a function of the time of this maximum is shown in the figure~\ref{fig:searchres} for the 4 setups. One can see a clear accumulation of event with large radio signal at the time bin 240 which is only 100ns before the SD trigger. To extract the radio events, we determine a threshold from the background sample which impose 99.7\% of the events to have a lower radio maximum than this threshold. A time condition is also set so that the time of maximum is inside 500ns around the particle trigger.
@@ -158,15 +180,21 @@ where $\rm F_{ref}$ is the flux density for a shower of energy $E_{ref} = 3.37 \
 %Figure~\ref{fig:midascoinc} and illustrate the 
 %absence of an excess around zero. 
 \section{Discussion and conclusions}
-Two setups, EASIER and MIDAS, aiming at the observation of the  Molecular Bremstrahlung Radiation in coincidence with event detected at the Pierre Auger Observatory were presented. We presented a search for Ultra High Energy (E > 1EeV) EAS events in these setups. While clear radio events were observed in the radio surface detector EASIER, no signal were found with MIDAS microwave telescope. These results are however compatible if one considers other emissions origin. Indeed, the radio signal observed with EASIER are all from closeby showers and might be attributed to coherent emissions known to be dominant at lower frequencies. 
+Two setups, EASIER and MIDAS, aiming at the observation of the  Molecular Bremsstrahlung Radiation in coincidence with event detected at the Pierre Auger Observatory were presented. We presented a search for Ultra High Energy (E > 1EeV) EAS events in these setups. While clear radio events were observed in the radio surface detector EASIER, no signal were found with MIDAS microwave telescope. These results are however compatible if one considers other emissions origin. Indeed, the radio signal observed with EASIER are all from closeby showers and might be attributed to coherent emissions known to be dominant at lower frequencies. 
 
 
 
 \begin{thebibliography}{99}
 \bibitem{augerupgrade}Daniele Martello,The Pierre Auger Observatory Upgrade, CRI203, These Proc.
 \bibitem{gorham}
-First reference etc.
-
+Gorham \textit{et al.}, Phys. Rev. \textbf{D78} (2008) 032007.
+\bibitem{VHF} F. Schr\"{o}der, Prog. Part. Nucl. Phys. \textbf{93}, (2017) 1-68
+\bibitem{amy}J. Alvarez-Muniz \textit{et al.},RICAP2014 EPJ \textbf{121} (2016) 03010
+\bibitem{maybe} C. Williams \textit{et al.}, EPJ  \textbf{53} 2013 08008
+\bibitem{crome}\v{S}mida \textit{et al.}, Phys.Rev.Lett. \textbf{113} (2014) 221101 
+\bibitem{mbr2016}Al Samarai \textit{et al.}, Phys. Rev. \textbf{D93} (2016) 052004
+\bibitem{augerMBR} P. Facal San Luis \textit{et al.}, UHECR2012, EPJ \textbf{53} (2013) 08009
+\bibitem{http://solar.nro.nao.ac.jp/norp/}
 \end{thebibliography}
 
 \end{document}

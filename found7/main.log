@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.16)  14 JUN 2017 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.16)  14 JUN 2017 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -163,6 +163,14 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 \belowcaptionskip=\skip47
 \bibindent=\dimen113
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen114
+\WF@size=\dimen115
+\c@WF@wrappedlines=\count94
+\WF@box=\box35
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+)
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -188,19 +196,19 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
  (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count94
-\scratchdimen=\dimen114
-\scratchbox=\box35
-\nofMPsegments=\count95
-\nofMParguments=\count96
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count97
-\MPscratchDim=\dimen115
-\MPnumerator=\count98
-\makeMPintoPDFobject=\count99
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count95
+\scratchdimen=\dimen116
+\scratchbox=\box36
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen117
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks21
 )
-\big@size=\dimen116
+\big@size=\dimen118
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -327,147 +335,146 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
 
 
-LaTeX Warning: Citation `amy' on page 1 undefined on input line 28.
+LaTeX Warning: Citation `icrc2013' on page 1 undefined on input line 29.
 
-
-LaTeX Warning: Citation `maybe' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Citation `crome' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Citation `icrc2013' on page 1 undefined on input line 28.
-
-<layoutGHz.png, id=22, 433.62pt x 361.35pt>
+[1] <layoutGHz.png, id=41, 433.62pt x 361.35pt>
 File: layoutGHz.png Graphic file (type png)
  <use layoutGHz.png>
-Package pdftex.def Info: layoutGHz.png used on input line 35.
-(pdftex.def)             Requested size: 172.07993pt x 143.4016pt.
+Package pdftex.def Info: layoutGHz.png used on input line 34.
+(pdftex.def)             Requested size: 129.06322pt x 107.5512pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
 
-
-LaTeX Warning: Reference `fig:easierconcept' on page 1 undefined on input line 
-45.
-
-<easierscheme.pdf, id=24, 460.78966pt x 505.07158pt>
+<easierscheme.pdf, id=44, 460.78966pt x 505.07158pt>
 File: easierscheme.pdf Graphic file (type pdf)
  <use easierscheme.pdf>
-Package pdftex.def Info: easierscheme.pdf used on input line 48.
+Package pdftex.def Info: easierscheme.pdf used on input line 56.
 (pdftex.def)             Requested size: 172.07993pt x 188.61528pt.
 
-Underfull \vbox (badness 1715) has occurred while \output is active []
 
- [1]
+LaTeX Warning: Reference `fig:easierconcept' on page 2 undefined on input line 
+63.
+
+
+LaTeX Warning: Reference `fig:easierconcept' on page 2 undefined on input line 
+63.
+
 [2 <./layoutGHz.png> <./easierscheme.pdf>]
-<effectiveareas.png, id=191, 476.78125pt x 357.335pt>
+<effectiveareas.png, id=205, 476.78125pt x 357.335pt>
 File: effectiveareas.png Graphic file (type png)
  <use effectiveareas.png>
-Package pdftex.def Info: effectiveareas.png used on input line 61.
+Package pdftex.def Info: effectiveareas.png used on input line 81.
 (pdftex.def)             Requested size: 172.07993pt x 128.9731pt.
 
-<spectra3.png, id=192, 578.16pt x 433.62pt>
+<spectra3.png, id=206, 578.16pt x 433.62pt>
 File: spectra3.png Graphic file (type png)
  <use spectra3.png>
-Package pdftex.def Info: spectra3.png used on input line 62.
+Package pdftex.def Info: spectra3.png used on input line 82.
 (pdftex.def)             Requested size: 172.07993pt x 129.05482pt.
+ [3 <./effectiveareas.png> <./spectra3.png>]
+
+LaTeX Warning: Reference `fig:solarflux' on page 4 undefined on input line 93.
 
 
-LaTeX Warning: Reference `fig:monit' on page 3 undefined on input line 73.
+LaTeX Warning: Citation `bib:nobeyama' on page 4 undefined on input line 97.
 
 
-LaTeX Warning: Citation `bib:nobeyama' on page 3 undefined on input line 73.
-
-[3 <./effectiveareas.png> <./spectra3.png>]
-
-LaTeX Warning: Reference `fig: baseline' on page 4 undefined on input line 77.
+LaTeX Warning: Reference `fig:solarflux' on page 4 undefined on input line 97.
 
 
-Overfull \hbox (20.40855pt too wide) in paragraph at lines 79--86
+Overfull \hbox (24.62805pt too wide) in paragraph at lines 100--107
  [] 
  []
 
-<newfitexamp.png, id=207, 722.7pt x 578.16pt>
+<newfitexamp.png, id=220, 722.7pt x 578.16pt>
 File: newfitexamp.png Graphic file (type png)
  <use newfitexamp.png>
-Package pdftex.def Info: newfitexamp.png used on input line 89.
+Package pdftex.def Info: newfitexamp.png used on input line 110.
 (pdftex.def)             Requested size: 172.07993pt x 137.65848pt.
 
-<jorgehour.png, id=208, 483.8075pt x 363.3575pt>
+<jorgehour.png, id=221, 483.8075pt x 363.3575pt>
 File: jorgehour.png Graphic file (type png)
  <use jorgehour.png>
-Package pdftex.def Info: jorgehour.png used on input line 90.
+Package pdftex.def Info: jorgehour.png used on input line 111.
 (pdftex.def)             Requested size: 172.07993pt x 129.23953pt.
- [4 <./newfitexamp.png> <./jorgehour.png>]
 
-LaTeX Warning: Reference `fig:searchres' on page 5 undefined on input line 99.
 
-<EA61_event.png, id=218, 578.16pt x 433.62pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+
+LaTeX Warning: Reference `fig:searchres' on page 5 undefined on input line 122.
+
+
+<EA61_event.png, id=229, 578.16pt x 433.62pt>
 File: EA61_event.png Graphic file (type png)
  <use EA61_event.png>
-Package pdftex.def Info: EA61_event.png used on input line 103.
+Package pdftex.def Info: EA61_event.png used on input line 126.
 (pdftex.def)             Requested size: 137.66919pt x 103.25047pt.
 
-<GDC_event.png, id=219, 578.16pt x 433.62pt>
+<GDC_event.png, id=230, 578.16pt x 433.62pt>
 File: GDC_event.png Graphic file (type png)
  <use GDC_event.png>
-Package pdftex.def Info: GDC_event.png used on input line 104.
+Package pdftex.def Info: GDC_event.png used on input line 127.
 (pdftex.def)             Requested size: 137.66919pt x 103.25047pt.
 
-<GDL_event.png, id=220, 578.16pt x 433.62pt>
+<GDL_event.png, id=231, 578.16pt x 433.62pt>
 File: GDL_event.png Graphic file (type png)
  <use GDL_event.png>
-Package pdftex.def Info: GDL_event.png used on input line 105.
+Package pdftex.def Info: GDL_event.png used on input line 128.
 (pdftex.def)             Requested size: 137.66919pt x 103.25047pt.
 
 
-LaTeX Warning: Reference `tab:eventlist' on page 5 undefined on input line 109.
+LaTeX Warning: Reference `tab:eventlist' on page 5 undefined on input line 132.
 
 
-<midasdet.pdf, id=221, 592.67523pt x 592.70825pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<midasdet.pdf, id=232, 592.67523pt x 592.70825pt>
 File: midasdet.pdf Graphic file (type pdf)
  <use midasdet.pdf>
-Package pdftex.def Info: midasdet.pdf used on input line 118.
+Package pdftex.def Info: midasdet.pdf used on input line 141.
 (pdftex.def)             Requested size: 258.12645pt x 258.14255pt.
-pdfTeX warning (ext4): destination with the same identifier (name{ref-fig:basel
-ines}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 \label{fig:baselines}
-                           
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `bib:midaschicago' on page 5 undefined on input line 12
-4.
+LaTeX Warning: Citation `bib:midaschicago' on page 5 undefined on input line 14
+7.
 
-[5 <./EA61_event.png> <./GDC_event.png> <./GDL_event.png>] [6 <./midasdet.pdf>]
+[5 <./newfitexamp.png> <./jorgehour.png>]
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{ref-fig:ba
+selines}) has been already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.149 
+       <./EA61_event.png> <./GDC_event.png> <./GDL_event.png> <./midasdet.pdf>]
 
 LaTeX Warning: Reference `sec:midaseventsearch' on page 7 undefined on input li
-ne 146.
+ne 169.
 
 
 LaTeX Warning: Reference `fig:midas_limits' on page 7 undefined on input line 1
-46.
+69.
 
-<midas_candidate_mix.pdf, id=279, 937.3399pt x 542.41647pt>
+<midas_candidate_mix.pdf, id=294, 937.3399pt x 542.41647pt>
 File: midas_candidate_mix.pdf Graphic file (type pdf)
 
 <use midas_candidate_mix.pdf>
-Package pdftex.def Info: midas_candidate_mix.pdf used on input line 149.
+Package pdftex.def Info: midas_candidate_mix.pdf used on input line 172.
 (pdftex.def)             Requested size: 210.80348pt x 121.9805pt.
 
-<midas_limit.png, id=280, 699.61375pt x 429.605pt>
+<midas_limit.png, id=295, 699.61375pt x 429.605pt>
 File: midas_limit.png Graphic file (type png)
  <use midas_limit.png>
-Package pdftex.def Info: midas_limit.png used on input line 150.
+Package pdftex.def Info: midas_limit.png used on input line 173.
 (pdftex.def)             Requested size: 210.80348pt x 129.44624pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7] [8 <./midas_candidate_mix.pdf> <./midas_limit.png>] (./main.aux)
+[7] [8 <./midas_candidate_mix.pdf> <./midas_limit.png>] [9] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -476,13 +483,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2857 strings out of 493014
- 37244 string characters out of 6133351
- 96575 words of memory out of 5000000
- 6262 multiletter control sequences out of 15000+600000
+ 2938 strings out of 493014
+ 38224 string characters out of 6133351
+ 98813 words of memory out of 5000000
+ 6329 multiletter control sequences out of 15000+600000
  82212 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,15n,28p,2803b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,28p,2133b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -505,10 +512,10 @@ courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
 l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 6480516 bytes).
+Output written on main.pdf (10 pages, 6484180 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
