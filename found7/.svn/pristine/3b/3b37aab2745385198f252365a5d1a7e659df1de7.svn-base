@@ -1,0 +1,44 @@
+% Please use the skeleton file you have received in the
+% invitation-to-submit email, where your data are already
+% filled in. Otherwise please make sure you insert your
+% data according to the instructions in PoSauthmanual.pdf
+\documentclass{PoS}
+
+\title{Full title of your Auger contribution}
+
+\ShortTitle{Short title for the header}
+
+\author{\speaker{Hardworking Student}$^a$ for the Pierre Auger Collaboration$^b$\\
+\llap{$^a$}Your Institution Affiliation, City, Country\\
+\llap{$^b$}Observatorio Pierre Auger, Av.\ San Mart\'in Norte 304, 5613 Malarg\"ue, Argentina\\
+E-mail: \href{mailto:auger_spokespersons@fnal.gov}{\rm auger\_spokespersons@fnal.gov}\\
+Full author list: \href{http://www.auger.org/archive/authors_icrc_2017.html}{\rm http://www.auger.org/archive/authors\_icrc\_2017.html}}
+
+\abstract{Your full abstract comes here.}
+
+\FullConference{35th International Cosmic Ray Conference\\
+                10--20 July, 2017\\
+                Bexco, Busan, Korea}
+
+
+
+\begin{document}
+
+\section{First section}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{PoSlogo}
+\caption{Include figures like this. Use JPG format for photos (i.e.\ many colors), PNG for bitmap plots with flat colors, and PDF for vector graphics.}
+\label{fig:so_and_so}
+\end{figure}
+
+
+
+\begin{thebibliography}{99}
+\bibitem{firstref}
+First reference etc.
+
+\end{thebibliography}
+
+\end{document}
